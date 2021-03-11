@@ -49,7 +49,10 @@ background: url(../../assets/images_/bg.png) left top repeat;
 }
 
 
-
+.big
+{
+  line-height: 0.9;
+}
 
 .wrapper{
     display: table-cell;
