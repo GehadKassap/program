@@ -1,0 +1,74 @@
+/*********** shadowing of container of data and container of inps search box*******/
+.showData
+{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  height: 600px;
+
+}
+.inpGrp
+{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+button , .chgColorBtn
+{
+  background-color:#1C85C8 ;
+}
+img
+{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.modifyInfo
+{
+  cursor: pointer;
+}
+/******** for bg of component******/
+.cont
+{
+  background-image: url(../../assets/Images/gr.svg);
+  background-repeat: no-repeat;
+  background-size: 40% 60%;
+  background-position: left top;
+
+}
+.bgwhite
+{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+h5
+{
+  font-size: 18px;
+  color: rgb(140,140,140);
+}
+label
+{
+  color: rgb(120,120,120);
+}
+.colorSearch
+{
+  border-color: rgb(0,123,255);
+}
+.item{
+
+
+box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+padding: 14px 80px 18px 36px;
+cursor: pointer;
+}
+.item:hover{
+  transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
